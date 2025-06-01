@@ -55,6 +55,8 @@ p, input, label, li,button.btn, a.btn{
   
 .nav-link:hover {
   color: #0d6efd !important;
+  transform: scale(1,1.5);
+  transition: .5s;
 }
 
 /*    Hero section    */

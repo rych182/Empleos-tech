@@ -11,7 +11,7 @@
 </head>
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg" style="background-color: #1f1f1f;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
       <img src="images/logo.png" alt="Empleos Tech Logo" />
@@ -20,10 +20,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" style="color: #e0e0e0;" href="#">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" style="color: #e0e0e0;" href="#jobs">Empleos</a></li>
-        <li class="nav-item"><a class="nav-link" style="color: #e0e0e0;" href="#publish">Publicar</a></li>
+      <ul class="navbar-nav ms-auto text-secondary text-center">
+        <li class="nav-item mx-3"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item mx-3"><a class="nav-link" href="#jobs">Empleos</a></li>
+        <li class="nav-item mx-3"><a class="nav-link" href="#publish">Publicar</a></li>
       </ul>
     </div>
   </div>
@@ -38,7 +38,8 @@
 </section>
 
 <!-- Búsqueda -->
-<section class="search-bar py-3">
+
+<section class="search-bar py-3 container">
   <div class="input-group shadow-sm rounded overflow-hidden">
     <input type="text" class="form-control" placeholder="¿Qué estás buscando?" />
     <button class="btn btn-primary" type="button">🔍Buscar</button>
@@ -108,7 +109,7 @@
 </section>
 
 <!-- Formulario de publicación -->
-<section id="publish" class="py-5" style="background-color: #121212;">
+<section id="publish" class="mb-5" >
   <div class="container">
     <h4 class="mb-4 text-center text-primary">📝 Publica un nuevo empleo</h4>
     <form class="border p-4 rounded shadow-sm text-secondary" style="background-color: #ebe4e4; color: #e0e0e0;">
