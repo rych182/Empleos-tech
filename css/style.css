@@ -21,13 +21,13 @@ body {
 }
 
 
-h1, h2, h5, h6 {
+h1, h2, h4, h5, h6 {
   font-family: 'Knewave', system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-p,input{
+p, input, label, li,button.btn, a.btn{
   font-family: "Caveat", cursive;
 }
 
